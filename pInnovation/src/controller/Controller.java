@@ -2,14 +2,12 @@ package controller;
 
 public class Controller {
 
-	private ControllerDB ctrlDB;
-	private ControllerDataView ctrlData;
+	private ControllerData ctrlData;
 	private ControllerView ctrlView;
 	
 	
 	public Controller() {
-		ctrlDB = new ControllerDB();
-		ctrlData = new ControllerDataView();
+		ctrlData = new ControllerData();
 		ctrlView = new ControllerView();
 	}
 	
