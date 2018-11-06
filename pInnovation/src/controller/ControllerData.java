@@ -10,4 +10,10 @@ public class ControllerData {
 		ctrlDB = new ControllerDB();
 		ctrlLink = new ControllerLink();
 	}
+	
+	public int controlData() {
+		
+		
+		return 0;
+	}
 }

@@ -11,7 +11,7 @@ public class Controller {
 		ctrlView = new ControllerView();
 	}
 	
-	public int main() {
+	public int control() {
 		
 		
 		
