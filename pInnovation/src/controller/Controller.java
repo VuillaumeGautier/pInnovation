@@ -13,7 +13,7 @@ public class Controller {
 	
 	public int control() {
 		
-		
+		ctrlData.controlData();
 		
 		return 0;
 	}
