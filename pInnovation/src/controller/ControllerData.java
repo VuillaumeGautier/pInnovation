@@ -8,7 +8,7 @@ public class ControllerData {
 	
 	public ControllerData () {
 		ctrlDB = new ControllerDB();
-		ctrlLink = new ControllerLink();
+		ctrlLink = new ControllerLink(20,80);
 	}
 	
 	public int controlData() {
